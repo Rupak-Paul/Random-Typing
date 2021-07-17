@@ -81,6 +81,7 @@
             resources.ApplyResources(this.settingButtonLabel, "settingButtonLabel");
             this.settingButtonLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.settingButtonLabel.Name = "settingButtonLabel";
+            this.settingButtonLabel.Click += new System.EventHandler(this.settingButtonLabel_Click);
             // 
             // aboutButtonLabel
             // 
@@ -199,6 +200,7 @@
             this.settingButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.settingButton.Name = "settingButton";
             this.settingButton.UseVisualStyleBackColor = false;
+            this.settingButton.Click += new System.EventHandler(this.settingButton_Click);
             // 
             // nevigationBar_line2
             // 
