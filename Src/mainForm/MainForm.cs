@@ -16,7 +16,7 @@ namespace Typing_Practice
     public partial class MainForm : Form
     {
         //in this path we wills store settings.json file, this file will contain all the settings made by user
-        private const string pathSettingJSON = "C:\\Random-Word-Typing-Practice\\settings.json";
+        private const string pathSettingJSON = "C:\\Random-Word-Typing-Practice\\setting.json";
 
         //maximum length of a word that will be generated randomly
         private const int maxWordLength = 8;
@@ -192,6 +192,18 @@ namespace Typing_Practice
 
                 textView.Select(textWrite.Text.Length, 1);
             }            
+        }
+
+        private void settingButtonLabel_Click(object sender, EventArgs e)
+        {
+            SettingDialog settingForm = new SettingDialog();
+            settingForm.ShowDialog();
+        }
+
+        private void settingButton_Click(object sender, EventArgs e)
+        {
+            SettingDialog settingForm = new SettingDialog();
+            settingForm.ShowDialog();
         }
     }
 }
