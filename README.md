@@ -27,9 +27,9 @@ Settings:
 
 ## Future Work
 * **Blind typing option in Setting button**: Voice assistant for closed eyes typing practice, through the option users will be able to practice typing by closing their eyes. This feature will help to build stronger muscle memory.
-* **Test Result**: Backspace press frequency in the test result
+* **Test Result**: Backspace press frequency in the test result.
 * **View Statistics button**: through this button, Users will be able to view statistics about his/her typing speed.
-* **Setting buttons**: Improvement of UI, Provide some default settings, Shift button logic change, ON/OFF sound while pressing a key
+* **Setting buttons**: Improvement of UI, Provide some default settings, Shift button logic change, ON/OFF sound while pressing a key.
 * **About button**: will show some step-by-step tutorials regarding how to learn touch typing faster and more efficiently, and some information about this application.
 
 ## Questions or Suggestions
